@@ -1,0 +1,41 @@
+{
+  "student_info": [
+    {"field_name": "学号", "type": 1},
+    {"field_name": "姓名", "type": 1},
+    {"field_name": "性别", "type": 3, "property": {"options": [{"name": "男"}, {"name": "女"}]}},
+    {"field_name": "出生日期", "type": 5, "property": {"date_formatter": "yyyy/MM/dd", "auto_fill": false}},
+    {"field_name": "班级", "type": 1},
+    {"field_name": "联系电话", "type": 13},
+    {"field_name": "家庭地址", "type": 1},
+    {"field_name": "备注", "type": 1}
+  ],
+  "exam_scores": [
+    {"field_name": "学生姓名", "type": 1},
+    {"field_name": "考试名称", "type": 1},
+    {"field_name": "科目", "type": 3, "property": {"options": [
+      {"name": "语文"}, {"name": "数学"}, {"name": "英语"},
+      {"name": "物理"}, {"name": "化学"}, {"name": "生物"},
+      {"name": "历史"}, {"name": "地理"}, {"name": "政治"}
+    ]}},
+    {"field_name": "成绩", "type": 2, "property": {"formatter": "0.0"}},
+    {"field_name": "满分", "type": 2, "property": {"formatter": "0"}},
+    {"field_name": "考试日期", "type": 5, "property": {"date_formatter": "yyyy/MM/dd", "auto_fill": false}},
+    {"field_name": "班级排名", "type": 2, "property": {"formatter": "0"}},
+    {"field_name": "年级排名", "type": 2, "property": {"formatter": "0"}},
+    {"field_name": "班级", "type": 1},
+    {"field_name": "备注", "type": 1}
+  ],
+  "daily_records": [
+    {"field_name": "学生姓名", "type": 1},
+    {"field_name": "记录类型", "type": 3, "property": {"options": [
+      {"name": "表扬"}, {"name": "批评"}, {"name": "行为记录"}, {"name": "奖惩"}
+    ]}},
+    {"field_name": "具体内容", "type": 1},
+    {"field_name": "记录日期", "type": 5, "property": {"date_formatter": "yyyy/MM/dd", "auto_fill": false}},
+    {"field_name": "科目场景", "type": 1},
+    {"field_name": "严重程度", "type": 3, "property": {"options": [
+      {"name": "一般"}, {"name": "较重"}, {"name": "严重"}
+    ]}},
+    {"field_name": "班级", "type": 1}
+  ]
+}
